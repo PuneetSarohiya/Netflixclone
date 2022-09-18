@@ -1,0 +1,72 @@
+.signinScreen {
+  max-width: 300px;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.signinScreen form {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+}
+.signinScreen form h1 {
+  text-align: left;
+}
+.signinScreen form input {
+  outline-width: 0;
+  height: 35px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+.signinScreen form button {
+  background: red;
+padding: 0.65rem 0.75rem;
+width: 100%;
+border: none;
+border-radius: 0.25rem;
+transition: all 0.2s;
+color: #fff;
+margin-bottom: 1rem;
+font-weight: 500;
+font-family: "Mulish";
+}
+
+.signinScreen form h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+.signinScreen_gray {
+  color: gray;
+}
+.signinScreen_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+} 
+
+.signupScreen_withGoogle {
+	display: flex;
+	align-items: center;
+	color: #737373;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.signupScreen_withGoogle:hover {
+	text-decoration: underline;
+}
+
+.signupScreen_withGoogle img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+.button{
+  background: rgba(255,255,255,0.05);
+  border: 1px rgba(255,255,255,0.5) solid;
+  font-weight: 400;
+  }
